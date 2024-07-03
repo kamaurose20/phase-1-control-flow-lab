@@ -32,7 +32,7 @@ describe('index.js', function () {
   describe('switchOnCharmFromTip()', function () {
     it('should return "Thank you so much." if the tip is generous', function () {
       expect(switchOnCharmFromTip('generous')).to.equal('Thank you so much.');
-    });
+    });git 
 
     it('should return "Thank you." if the tip is not as generous', function () {
       expect(switchOnCharmFromTip('not as generous')).to.equal('Thank you.');
